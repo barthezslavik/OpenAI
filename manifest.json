@@ -1,0 +1,14 @@
+{
+  "name": "Collapse Answers",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Collapses answers on the OpenAI chat website and only shows the questions.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
